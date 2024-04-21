@@ -32,6 +32,7 @@ const App: React.FC = () => {
   return (
     <div>
       <Button content="Primary" isActive={true} onClick={handleClick} />
+      <Button content="Primary" isActive={false} onClick={handleClick} />
     </div>
   );
 };

@@ -1,9 +1,12 @@
 import "./App.css";
 import React from "react";
-import App from "./components/Button";
-import BtnNS from "./components/ButtonNameSurname";
-import HumMenu from "./components/HumburgerMenu";
-import SignIn from "./components/SignIn";
+import App from "./ui-components/Button";
+import BtnNS from "./ui-components/ButtonNameSurname";
+import HumMenu from "./components/BurgerMenu";
+import SignIn from "./ui-components/SignIn";
+import Input from "./ui-components/Input";
+import Textarea from "./ui-components/Textarea";
+import Tabs from "./components/Tabs";
 
 const MainApp: React.FC = () => {
   return (
@@ -12,6 +15,9 @@ const MainApp: React.FC = () => {
       <BtnNS />
       <SignIn />
       <HumMenu />
+      <Input />
+      <Textarea />
+      <Tabs />
     </div>
   );
 };
